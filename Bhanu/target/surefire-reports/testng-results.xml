@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test testValidLogin is PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20341" started-at="2019-03-27T19:04:23Z" finished-at="2019-03-27T19:04:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20341" started-at="2019-03-27T19:04:23Z" finished-at="2019-03-27T19:04:43Z">
+      <class name="src.script.ValidLogin">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:src.script.ValidLogin@1324409e]" name="OpenApp" is-config="true" duration-ms="18356" started-at="2019-03-27T19:04:23Z" finished-at="2019-03-27T19:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:src.script.ValidLogin@1324409e]" name="testValidLogin" duration-ms="1024" started-at="2019-03-27T19:04:41Z" finished-at="2019-03-27T19:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:src.script.ValidLogin@1324409e]" name="closeApp" is-config="true" duration-ms="931" started-at="2019-03-27T19:04:42Z" finished-at="2019-03-27T19:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:src.script.ValidLogin@1324409e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test testValidLogin is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- src.script.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test testValidLogin is PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31357" started-at="2019-03-27T19:02:49Z" finished-at="2019-03-27T19:03:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31357" started-at="2019-03-27T19:02:49Z" finished-at="2019-03-27T19:03:21Z">
+      <class name="src.script.ValidLogin">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:src.script.ValidLogin@6e1567f1]" name="OpenApp" is-config="true" duration-ms="22236" started-at="2019-03-28T00:32:49Z" finished-at="2019-03-28T00:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:src.script.ValidLogin@6e1567f1]" name="testValidLogin" duration-ms="8332" started-at="2019-03-28T00:33:12Z" finished-at="2019-03-28T00:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:src.script.ValidLogin@6e1567f1]" name="closeApp" is-config="true" duration-ms="730" started-at="2019-03-28T00:33:20Z" finished-at="2019-03-28T00:33:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:src.script.ValidLogin@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test testValidLogin is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- src.script.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
